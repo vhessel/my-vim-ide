@@ -1,6 +1,8 @@
-# Vim as IDE
+# Vim as IDE 
 
 This guide will cover the steps to configure the Vim to be used as an IDE (In case i loose my configuration again... 😭 ). At the time of this writing, the configuration reflects a strong flavor towards Python and it was done in Ubuntu 18.04, but it should be easy to use other languages in other OS.
+
+![](img/screenshot.png)
 
 ## Vim Plugins
 * **[Plugin manager](#plugin-manager):** [Vundle](https://github.com/VundleVim/Vundle.vim)
