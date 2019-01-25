@@ -8,7 +8,7 @@ This guide will cover the steps to configure the Vim to be used as an IDE (In ca
 * **[Plugin manager](#plugin-manager):** [Vundle](https://github.com/VundleVim/Vundle.vim)
 * **File system explorer:** [NERDTree](https://github.com/scrooloose/nerdtree)
 * **Tag browser:** [Tagbar](https://github.com/majutsushi/tagbar)
-* **Asynchronous completion:** [Deoplete](https://github.com/Shougo/deoplete.nvim)
+* **[Asynchronous completion](#asynchronous-completion):** [Deoplete](https://github.com/Shougo/deoplete.nvim)
 * **Python modules completion:** [Deoplete-Jedi](https://github.com/zchee/deoplete-jedi)
 * **[Asynchronous syntax checking](#asynchronous-syntax-checking):** [ALE](https://github.com/w0rp/ale)
 * **[Status bar](#status-bar):** [Vim-Airline](https://github.com/vim-airline/vim-airline)
@@ -32,6 +32,13 @@ Put the .vimrc provided in this repository in your `home` directory: `/home/$USE
 
 To install ALL Plugins listed below:
 Launch vim and run `:PluginInstall`
+
+### Asynchronous Completion
+
+Install the Python package neovim:
+```
+$ sudo pip install neovim
+```
 
 ### Asynchronous Syntax Checking
 
